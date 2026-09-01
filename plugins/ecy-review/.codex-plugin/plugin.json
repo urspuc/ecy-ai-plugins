@@ -1,0 +1,24 @@
+{
+  "name": "ecy-review",
+  "version": "0.1.0",
+  "description": "Review AI-generated work before ECY uses, sends, publishes, or delivers it.",
+  "author": {
+    "name": "ECY"
+  },
+  "homepage": "https://github.com/urspuc/ecy-ai-plugins",
+  "repository": "https://github.com/urspuc/ecy-ai-plugins",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "ECY Review",
+    "shortDescription": "Audit AI outputs before delivery",
+    "longDescription": "Reviews AI-generated research, product content, emails, data, presentations, images, agent work, and business analysis. It finds concrete problems, separates review from rewriting, and identifies what people should verify first.",
+    "developerName": "ECY",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": [
+      "检查这个产物是否可以交付。",
+      "重点找出最值得人工确认的三个问题。",
+      "对照附件中的原始资料做深度审查。"
+    ]
+  }
+}
