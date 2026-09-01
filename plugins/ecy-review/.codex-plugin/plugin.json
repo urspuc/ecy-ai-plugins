@@ -1,7 +1,7 @@
 {
   "name": "ecy-review",
-  "version": "0.1.0",
-  "description": "Review AI-generated work before ECY uses, sends, publishes, or delivers it.",
+  "version": "0.1.0+codex.20260901103312",
+  "description": "\u5728 ECY \u4f7f\u7528\u3001\u53d1\u9001\u6216\u4ea4\u4ed8 AI \u4ea7\u7269\u524d\u8fdb\u884c\u68c0\u67e5\u3002",
   "author": {
     "name": "ECY"
   },
@@ -10,15 +10,15 @@
   "skills": "./skills/",
   "interface": {
     "displayName": "ECY Review",
-    "shortDescription": "Audit AI outputs before delivery",
-    "longDescription": "Reviews AI-generated research, product content, emails, data, presentations, images, agent work, and business analysis. It finds concrete problems, separates review from rewriting, and identifies what people should verify first.",
+    "shortDescription": "\u4ea4\u4ed8\u524d\u68c0\u67e5 AI \u4ea7\u7269",
+    "longDescription": "\u68c0\u67e5 AI \u751f\u6210\u7684\u7814\u7a76\u3001\u4ea7\u54c1\u5185\u5bb9\u3001\u90ae\u4ef6\u3001\u6570\u636e\u3001PPT\u3001\u56fe\u7247\u3001Agent \u4efb\u52a1\u548c\u5546\u4e1a\u5206\u6790\u3002\u5b83\u4f1a\u5148\u6307\u51fa\u5177\u4f53\u95ee\u9898\u548c\u5f85\u786e\u8ba4\u4e8b\u9879\uff0c\u4e0d\u4f1a\u5728\u68c0\u67e5\u8fc7\u7a0b\u4e2d\u76f4\u63a5\u6539\u5199\u3002",
     "developerName": "ECY",
     "category": "Productivity",
     "capabilities": [],
     "defaultPrompt": [
-      "检查这个产物是否可以交付。",
-      "重点找出最值得人工确认的三个问题。",
-      "对照附件中的原始资料做深度审查。"
+      "\u68c0\u67e5\u8fd9\u4e2a\u4ea7\u7269\u662f\u5426\u53ef\u4ee5\u4ea4\u4ed8\u3002",
+      "\u91cd\u70b9\u627e\u51fa\u6700\u503c\u5f97\u4eba\u5de5\u786e\u8ba4\u7684\u4e09\u4e2a\u95ee\u9898\u3002",
+      "\u5bf9\u7167\u9644\u4ef6\u4e2d\u7684\u539f\u59cb\u8d44\u6599\u505a\u6df1\u5ea6\u5ba1\u67e5\u3002"
     ]
   }
 }
