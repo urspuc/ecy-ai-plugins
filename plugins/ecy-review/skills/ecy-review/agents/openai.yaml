@@ -1,7 +1,7 @@
 interface:
   display_name: "ECY Review"
-  short_description: "Review AI outputs before ECY uses or delivers them"
-  default_prompt: "Use $ecy-review to audit this artifact before delivery."
+  short_description: "在交付前检查 AI 产物中的事实、数据、遗漏和实际可用性"
+  default_prompt: "使用 $ecy-review 检查这个产物是否可以交付。"
 
 policy:
   allow_implicit_invocation: false
