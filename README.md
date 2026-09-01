@@ -1,0 +1,2 @@
+# ecy-ai-plugins
+qwq
