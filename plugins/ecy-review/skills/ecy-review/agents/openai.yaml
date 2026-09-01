@@ -1,0 +1,7 @@
+interface:
+  display_name: "ECY Review"
+  short_description: "Review AI outputs before ECY uses or delivers them"
+  default_prompt: "Use $ecy-review to audit this artifact before delivery."
+
+policy:
+  allow_implicit_invocation: false
