@@ -1,7 +1,7 @@
 {
   "name": "ecy-internal",
   "interface": {
-    "displayName": "ECY Internal"
+    "displayName": "ECY 内部插件"
   },
   "plugins": [
     {
